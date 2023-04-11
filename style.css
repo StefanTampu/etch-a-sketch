@@ -2,7 +2,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    margin: auto;
     font-size: 16px;
     background-color: antiquewhite;
 }
@@ -13,10 +12,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
 h1 {
     font-size: 3rem;
+}
+
+.sketch-container {
+    width: 60vh;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+    
 }
