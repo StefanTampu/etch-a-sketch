@@ -14,3 +14,12 @@ function sketchGrid(dimensions){
         sketchContainer.appendChild(row);
     }   
 }
+
+sketchGrid(4);
+
+const hovers = document.querySelectorAll(".square")
+hovers.forEach((hover) => {
+    hover.addEventListener("mouseover", () => {
+        hover.style.backgroundColor = "black";
+    })
+})
