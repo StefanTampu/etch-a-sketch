@@ -14,15 +14,15 @@ function sketchGrid(dimensions){
     }   
 }
 
-let gridDimensions = 32;
+let gridDimensions = 8;
 
 function numGridSquares(gInput){
     if(gInput === "small"){
-        return gridDimensions = 8;
+        return gridDimensions = 32;
     } else if (gInput === "medium"){
         return gridDimensions = 16;
     } else if (gInput === "large"){
-        return gridDimensions = 32;
+        return gridDimensions = 8;
     }
 }
 
