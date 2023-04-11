@@ -20,10 +20,22 @@ h1 {
     font-size: 3rem;
 }
 
-.sketch-container {
+#sketch-container {
     width: 60vh;
     height: 60vh;
     background-color: white;
     display: flex;
-    
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+.square {
+    flex:auto;
+    background-color: violet;
+    border: 1px solid black;
 }
