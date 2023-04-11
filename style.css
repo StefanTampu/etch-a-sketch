@@ -36,5 +36,6 @@ h1 {
 .square {
     flex:auto;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid gray;
+    transition: 1.5s;
 }
