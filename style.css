@@ -23,7 +23,6 @@ h1 {
 #sketch-container {
     width: 60vh;
     height: 60vh;
-    background-color: white;
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +35,6 @@ h1 {
 
 .square {
     flex:auto;
-    background-color: violet;
+    background-color: white;
     border: 1px solid black;
 }
