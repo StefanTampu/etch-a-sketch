@@ -29,15 +29,20 @@ function numGridSquares(gInput){
 
 sketchGrid(gridDimensions);
 
+let colour = "black";
+
+const cButtons = document.querySelectorAll("#c-buttons button");
+cButtons.forEach((cButton) => {
+    cButton.addEventListener("click", () => {
+        colour = cButton.id;
+    })
+})
+
 function hovering(){
     const hovers = document.querySelectorAll(".square")
     hovers.forEach((hover) => {
         hover.addEventListener("mouseover", () => {
-            const cButtons = document.querySelectorAll("#c-buttons button");
-            cButtons.forEach((cbutton) => {
-                
-            })
-            hover.style.backgroundColor = "black";
+            hover.style.backgroundColor = colour;
         })
     })
 }
