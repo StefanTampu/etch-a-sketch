@@ -39,10 +39,15 @@ cButtons.forEach((cButton) => {
 })
 
 function hovering(){
-    const hovers = document.querySelectorAll(".square")
+    const hovers = document.querySelectorAll(".square");
     hovers.forEach((hover) => {
         hover.addEventListener("mouseover", () => {
             hover.style.backgroundColor = colour;
+            if (colour == "#c6973b"){
+                hover.style.borderColor = "#fffdf3";
+            } else {
+                hover.style.borderColor = "#c6973b";
+            }
         })
     })
 }
