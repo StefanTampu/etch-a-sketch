@@ -107,8 +107,8 @@ main {
 
 .square {
     flex:auto;
-    background-color: white;
-    border: 1px solid gray;
+    background-color: #fffdf3;
+    border: 1px solid #c6973b;
     transition: 1.5s;
     border-radius: 15%;
 }
